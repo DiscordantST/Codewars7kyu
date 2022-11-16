@@ -12,3 +12,9 @@ A common way to deal with this situation is to remove all of the vowels from the
 Your task is to write a function that takes a string and return a new string with all vowels removed.
 For example, the string "This website is for losers LOL!" would become "Ths wbst s fr lsrs LL!".
 Note: for this kata y isn't considered a vowel.
+
+- Square Every Digit:
+Welcome. In this kata, you are asked to square every digit of a number and concatenate them.
+For example, if we run 9119 through the function, 811181 will come out, because 9 in quare is 81 and 1 in square is 1.
+Note: The function accepts an integer and returns an integer
+
