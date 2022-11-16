@@ -1,3 +1,3 @@
 def high_and_low(numbers):
-    # ...
-    return numbers
+    nums = [int(num) for num in numbers.split(' ')]
+    return f"{max(nums)} {min(nums)}"
