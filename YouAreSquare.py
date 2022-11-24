@@ -1,7 +1,7 @@
-def is_square(n):
-    if n == 0:
+def is_square(digit):
+    if digit == 0:
         return True
-    if n < 0:
+    if digit < 0:
         return False
     else:
-        return n % n ** 0.5 == 0
+        return digit % digit ** 0.5 == 0

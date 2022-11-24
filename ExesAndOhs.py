@@ -1,2 +1,2 @@
-def xo(s):
-    return s.lower().count("o") == s.lower().count("x")
+def xo(string):
+    return string.lower().count("o") == string.lower().count("x")
