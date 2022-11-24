@@ -1,4 +1,4 @@
-My learning Python from site Codewars
+My learning Python from Codewars
 7 kyu
 
 - Vowel Count:
@@ -52,7 +52,6 @@ This is only here to tell you that you do not need to worry about your solution 
 The middle character(s) of the word represented as a string.
 
 - Mumbling:
-DESCRIPTION:
 This time no story, no theory. The examples below show you how to write function accum:
 Examples:
 accum("abcd") -> "A-Bb-Ccc-Dddd"
@@ -94,3 +93,12 @@ isIsogram "Dermatoglyphics" = true
 isIsogram "moose" = false
 isIsogram "aba" = false
 
+- Exes and Ohs:
+Check to see if a string has the same amount of 'x's and 'o's.
+The method must return a boolean and be case insensitive. The string can contain any char.
+Examples input/output:
+XO("ooxx") => true
+XO("xooxx") => false
+XO("ooxXm") => true
+XO("zpzpzpp") => true // when no 'x' and 'o' is present should return true
+XO("zzoo") => false
