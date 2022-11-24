@@ -1,2 +1,2 @@
 def to_jaden_case(string):
-    return string.title()
+    return " ".join(i.capitalize() for i in string.split())
