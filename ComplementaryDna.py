@@ -11,8 +11,8 @@ def DNA_strand(dna):
             c.append("C")
     return "".join(c)
 
-# good answer
-# Azuaron, yannche, MolloOXx, D0425434, rxsilva, dprez808, pklecha, Holly Olly Oxen Free, AcostaDavid, DrMoriarty74 (+ 48)
-# def DNA_strand(dna):
-#   return "".join([{'A':'T', 'T':'A', 'C':'G', 'G':'C'}[l] for l in dna])
+#  good answer
+#  Azuaron, yannche, MolloOXx, D0425434, rxsilva, dprez808, pklecha, Holly Olly Oxen Free, AcostaDavid, DrMoriarty74 (+ 48)
+#def DNA_strand(dna):
+#return "".join([{'A':'T', 'T':'A', 'C':'G', 'G':'C'}[l] for l in dna])
 
