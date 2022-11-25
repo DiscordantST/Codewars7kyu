@@ -1,2 +1,2 @@
 def friend(x):
-    pass
+    return [friends for friends in x if len(friends) == 4]
