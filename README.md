@@ -180,3 +180,13 @@ Examples (a, b) --> output (explanation)
 (-1, 0) --> -1 (-1 + 0 = -1)
 (-1, 2) --> 2 (-1 + 0 + 1 + 2 = 2)
 
+- Two to One:
+
+Take 2 strings s1 and s2 including only letters from a to z. Return a new sorted string, 
+the longest possible, containing distinct letters - each taken only once - coming from s1 or s2.
+Examples:
+a = "xyaabbbccccdefww"
+b = "xxxxyyyyabklmopq"
+longest(a, b) -> "abcdefklmopqwxy"
+a = "abcdefghijklmnopqrstuvwxyz"
+longest(a, a) -> "abcdefghijklmnopqrstuvwxyz"
